@@ -12,6 +12,8 @@
 		192D23D51DF1F2F300C20AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192D23D31DF1F2F300C20AE6 /* Main.storyboard */; };
 		192D23D71DF1F2F300C20AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192D23D61DF1F2F300C20AE6 /* Assets.xcassets */; };
 		192D23DA1DF1F2F300C20AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192D23D81DF1F2F300C20AE6 /* LaunchScreen.storyboard */; };
+		192D23E21DF1F4A200C20AE6 /* SCIENTIFIC CALCULATOR.htm in Resources */ = {isa = PBXBuildFile; fileRef = 192D23E11DF1F4A200C20AE6 /* SCIENTIFIC CALCULATOR.htm */; };
+		192D23E41DF1F90A00C20AE6 /* SCIENTIFIC CALCULATOR_files in Resources */ = {isa = PBXBuildFile; fileRef = 192D23E31DF1F90A00C20AE6 /* SCIENTIFIC CALCULATOR_files */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		192D23D61DF1F2F300C20AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		192D23D91DF1F2F300C20AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		192D23DB1DF1F2F300C20AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192D23E11DF1F4A200C20AE6 /* SCIENTIFIC CALCULATOR.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "SCIENTIFIC CALCULATOR.htm"; sourceTree = "<group>"; };
+		192D23E31DF1F90A00C20AE6 /* SCIENTIFIC CALCULATOR_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SCIENTIFIC CALCULATOR_files"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				192D23CF1DF1F2F300C20AE6 /* AppDelegate.swift */,
 				192D23D11DF1F2F300C20AE6 /* ViewController.swift */,
 				192D23D31DF1F2F300C20AE6 /* Main.storyboard */,
+				192D23E11DF1F4A200C20AE6 /* SCIENTIFIC CALCULATOR.htm */,
+				192D23E31DF1F90A00C20AE6 /* SCIENTIFIC CALCULATOR_files */,
 				192D23D61DF1F2F300C20AE6 /* Assets.xcassets */,
 				192D23D81DF1F2F300C20AE6 /* LaunchScreen.storyboard */,
 				192D23DB1DF1F2F300C20AE6 /* Info.plist */,
@@ -127,6 +133,8 @@
 				192D23DA1DF1F2F300C20AE6 /* LaunchScreen.storyboard in Resources */,
 				192D23D71DF1F2F300C20AE6 /* Assets.xcassets in Resources */,
 				192D23D51DF1F2F300C20AE6 /* Main.storyboard in Resources */,
+				192D23E41DF1F90A00C20AE6 /* SCIENTIFIC CALCULATOR_files in Resources */,
+				192D23E21DF1F4A200C20AE6 /* SCIENTIFIC CALCULATOR.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +272,7 @@
 				DEVELOPMENT_TEAM = UFWLT64PGT;
 				INFOPLIST_FILE = "Gate Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dh.gatecalculator.Gate-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dh.gatecalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +285,7 @@
 				DEVELOPMENT_TEAM = UFWLT64PGT;
 				INFOPLIST_FILE = "Gate Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dh.gatecalculator.Gate-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dh.gatecalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
